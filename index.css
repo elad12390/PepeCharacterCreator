@@ -1,0 +1,31 @@
+div#pepe {
+    width: 567px;
+    height: 500px;
+}
+
+div#eyes {
+    transform: translate(-20px,-754px);
+    width: 568px;
+    height: 225px;
+}
+.eyes {
+    z-index: 2;
+    position: relative;
+}
+
+
+div#mouth {
+    z-index: 5;
+    position: relative;
+    height: 100px;
+    width: 400px;
+    transform: translate(149px,-710px);
+}
+
+div#hat {
+    transform: translate(0,-633px);
+    z-index: 6;
+    position: relative;
+    height: 295px;
+    width: 300px;
+}

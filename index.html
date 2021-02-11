@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PepeCreator</title>
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="startup.js"></script>
+</head>
+<body>
+<canvas id="ctx"></canvas>
+
+
+
+<div style="display: flex; flex-direction: row;gap:1rem">
+    <div>
+        <div id="pepe">
+            <div id="head"></div>
+            <div id="hat"></div>
+            <div id="eyes"></div>
+            <div id="mouth"></div>
+            <div id="wrinkles"></div>
+        </div>
+    </div>
+    <div style="display: flex; flex-direction:column;gap:1rem">
+        <div>
+            <input id="skin-color" type="color" name="skin" value="#5b8e43"/>
+            <label for="skin-color">Skin</label>
+        </div>
+        <div>
+            <input id="mouth-color" type="color" name="skin" value="#a25737"/>
+            <label for="mouth-color">Mouth</label>
+        </div>
+        <div>
+            <input id="eye-background-color" type="color" name="eye-background-color" value="#ffffff"/>
+            <label for="eye-background-color">Eye background</label>
+        </div>
+        <div>
+            <select id="eye-type">
+                <option selected value="sadEyes">sad eyes</option>
+                <option value="happyEyes">happy eyes</option>
+                <option value="kekEyes">kek eyes</option>
+            </select>
+            <label for="eye-type">eyes type</label>
+        </div>
+        <div>
+            <select id="mouth-type">
+                <option selected value="sadMouth">sad mouth</option>
+                <option value="happyMouth">happy mouth</option>
+                <option value="kekMouth">kek mouth</option>
+            </select>
+            <label for="eye-type">mouth type</label>
+        </div>
+        <div>
+            <select id="hat-type">
+                <option selected value="noHat">no hat</option>
+                <option value="magaHat">maga hat</option>
+                <option value="hornsHat">horns hat</option>
+            </select>
+            <label for="eye-type">Hat type</label>
+        </div>
+    </div>
+</div>
+</body>
+</html>
