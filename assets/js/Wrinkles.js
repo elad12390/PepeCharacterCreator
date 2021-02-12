@@ -13,5 +13,6 @@ const wrinkles = "<svg id=\"wrinkles\" xmlns=\"http://www.w3.org/2000/svg\" view
 const wrinklesCss = {
     'z-index': '4',
     left: 0,
-    top: 0
+    top: 0,
+    transform: 'translate(230px,-866px)'
 }
