@@ -51,6 +51,7 @@ const sadEyes = "<svg id=\"sadEyes\" class='eyes' xmlns=\"http://www.w3.org/2000
 
 const sadEyesCss = {
     'z-index': '0',
-    left: '156px',
-    top: '1px'
+    width: 425,
+    left: 0,
+    top: 1
 }

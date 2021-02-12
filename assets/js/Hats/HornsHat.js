@@ -9,8 +9,8 @@ const hornsHat = "<svg id=\"hornsHat\" xmlns=\"http://www.w3.org/2000/svg\" view
 
 const hornsHatCss = {
     'z-index': '0',
-    left: '0',
-    top: '1px',
+    position: 'relative',
+    left:'46px',
+    top:'40px',
     height: '158px',
-    transform: 'translate(46px,40px)'
 }

@@ -15,14 +15,16 @@
 
 
 
-<div style="display: flex; flex-direction: row;gap:1rem">
+<div style="display: flex; flex-direction: row;gap:10rem">
     <div>
-        <div id="pepe">
-            <div id="head"></div>
-            <div id="hat"></div>
-            <div id="eyes"></div>
-            <div id="mouth"></div>
-            <div id="wrinkles"></div>
+        <div id="screenshot">
+            <div id="pepe">
+                <div id="head"></div>
+                <div id="hat"></div>
+                <div id="eyes"></div>
+                <div id="mouth"></div>
+                <div id="wrinkles"></div>
+            </div>
         </div>
     </div>
     <div style="display: flex; flex-direction:column;gap:1rem">
@@ -33,6 +35,28 @@
         <div>
             <input id="mouth-color" type="color" name="skin" value="#a25737"/>
             <label for="mouth-color">Mouth</label>
+            <div>
+                <select id="mouth-type">
+                    <option selected value="sadMouth">sad mouth</option>
+                    <option value="happyMouth">happy mouth</option>
+                    <option value="kekMouth">kek mouth</option>
+                </select>
+                <label for="eye-type">mouth type</label>
+            </div>
+            <div style="display: flex;flex-direction: column">
+                <div>
+                    <input id="mouth-size" type="range" min="-200" max="200"/>
+                    <label for="mouth-size">Mouth Size</label>
+                </div>
+                <div>
+                    <input id="mouth-x" type="range"  min="-200" max="200"/>
+                    <label for="mouth-x">Mouth x</label>
+                </div>
+                <div>
+                    <input id="mouth-y" type="range"  min="-200" max="200"/>
+                    <label for="mouth-y">Mouth y</label>
+                </div>
+            </div>
         </div>
         <div>
             <input id="eye-background-color" type="color" name="eye-background-color" value="#ffffff"/>
@@ -45,14 +69,20 @@
                 <option value="kekEyes">kek eyes</option>
             </select>
             <label for="eye-type">eyes type</label>
-        </div>
-        <div>
-            <select id="mouth-type">
-                <option selected value="sadMouth">sad mouth</option>
-                <option value="happyMouth">happy mouth</option>
-                <option value="kekMouth">kek mouth</option>
-            </select>
-            <label for="eye-type">mouth type</label>
+            <div style="display: flex;flex-direction: column">
+                <div>
+                    <input id="eye-size" type="range" min="-100" max="100"/>
+                    <label for="mouth-size">eye Size</label>
+                </div>
+                <div>
+                    <input id="eye-x" type="range"  min="-100" max="100"/>
+                    <label for="mouth-x">eye x</label>
+                </div>
+                <div>
+                    <input id="eye-y" type="range"  min="-100" max="100"/>
+                    <label for="mouth-y">eye y</label>
+                </div>
+            </div>
         </div>
         <div>
             <select id="hat-type">
@@ -62,6 +92,9 @@
             </select>
             <label for="eye-type">Hat type</label>
         </div>
+<!--        <div>-->
+<!--            <button id="downloadButton">Download Image</button>-->
+<!--        </div>-->
     </div>
 </div>
 </body>

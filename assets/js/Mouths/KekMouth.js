@@ -24,6 +24,8 @@ const kekMouth = "<svg id=\"kekMouth\" xmlns=\"http://www.w3.org/2000/svg\" view
     "</svg>\n".trim();
 
 const kekMouthCss = {
-    height: '135px',
-    transform: 'translate(13px,-23px)'
+    width: 400,
+    position: 'relative',
+    left: 13,
+    top: -23
 }

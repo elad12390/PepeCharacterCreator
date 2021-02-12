@@ -17,5 +17,7 @@ const mouth = "<svg id=\"mouth\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"
 const mouthCss = {
     'z-index': 5,
     left: 0,
+    position: 'relative',
+    width: 407,
     top: 0
 }

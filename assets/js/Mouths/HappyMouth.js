@@ -14,6 +14,8 @@ const happyMouth = "<svg id=\"happyMouth\" xmlns=\"http://www.w3.org/2000/svg\" 
     "</svg>\n".trim();
 
 const happyMouthCss = {
-    height: '108px',
-    transform: 'translate(13px,-23px)'
+    width: 400,
+    position: 'relative',
+    left: 13,
+    top: -23
 }

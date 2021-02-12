@@ -25,6 +25,7 @@ const happyEyes = "<svg id=\"happyEyes\" class='eyes' xmlns=\"http://www.w3.org/
     "</svg>\n".trim();
 
 const happyEyesCss = {
-    left: '150px',
-    top: '0px',
+    left: 0,
+    width: 440,
+    top: 0,
 }

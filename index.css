@@ -1,16 +1,27 @@
+body {
+    overflow-y: hidden;
+}
+* {
+    overflow: visible;
+}
 div#pepe {
     width: 567px;
     height: 500px;
+    overflow: visible;
 }
 
 div#eyes {
-    transform: translate(-20px,-754px);
-    width: 568px;
+    position: relative;
+    width: 450px;
     height: 225px;
+    left:135px;
+    top:-754px;
+    overflow: visible;
 }
 .eyes {
     z-index: 2;
     position: relative;
+    overflow: visible;
 }
 
 
@@ -19,13 +30,17 @@ div#mouth {
     position: relative;
     height: 100px;
     width: 400px;
-    transform: translate(149px,-710px);
+    top: -710px;
+    left: 149px;
+    overflow: visible;
 }
 
 div#hat {
-    transform: translate(0,-633px);
     z-index: 6;
     position: relative;
     height: 295px;
     width: 300px;
+    left:0;
+    top:-633px;
+    overflow: visible;
 }

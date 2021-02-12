@@ -59,6 +59,9 @@ const kekEyes = "<svg id=\"kekEyes\" class=\"eyes\" xmlns=\"http://www.w3.org/20
     "</svg>\n".trim();
 
 const kekEyesCss = {
+    position: 'relative',
     height: '223px',
-    transform: 'translate(127px, 0px)'
+    width: 400,
+    top: 0,
+    left: 15
 }
