@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c193d0b-dee6-4b40-a56e-1b8ef385b9df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PepeCreator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PepeCreator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/Eyes/HappyEyes.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/Eyes/HappyEyes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/Eyes/KekEyes.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/Eyes/KekEyes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Svgs/SadEyes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Svgs/SadEyes.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/Eyes/SadEyes.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/Eyes/SadEyes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/Hats/HornsHat.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/Hats/HornsHat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/Mouths/HappyMouth.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/Mouths/HappyMouth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/Mouths/KekMouth.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/Mouths/KekMouth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/Mouths/Mouth.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/Mouths/Mouth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/Wrinkles.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/Wrinkles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
@@ -64,6 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -91,7 +84,9 @@
       <workItem from="1612810097275" duration="8000" />
       <workItem from="1613115309815" duration="822000" />
       <workItem from="1613130112292" duration="4750000" />
-      <workItem from="1613158245695" duration="5376000" />
+      <workItem from="1613158245695" duration="6386000" />
+      <workItem from="1613202710398" duration="616000" />
+      <workItem from="1614079525726" duration="7246000" />
     </task>
     <servers />
   </component>

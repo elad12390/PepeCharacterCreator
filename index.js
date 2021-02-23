@@ -148,7 +148,6 @@ const saveAs = (uri, filename) => {
 
 
 $("document").ready(() => {
-    const ctx = document.getElementById("ctx").getContext('2d');
     const bodyElement = $("#pepe");
     const pepeBodyElements = [
         ['default head', 'svg#head',head, headCss],

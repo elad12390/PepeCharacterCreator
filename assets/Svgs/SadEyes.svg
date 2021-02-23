@@ -1,7 +1,7 @@
 <svg id="sadEyes" class='eyes' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 427 219" width="427" height="219"
 	 style="
 		 --eyeball-reflection-color: white;
-		 --skin-color: #598c3d;
+		 --skin-color: #5b8e43;
 		 --eye-back-color: #f7f7f7;
 		 --eyeball-color: #000000;
 		 --stroke-width: 3

@@ -1,7 +1,7 @@
 const sadEyes = "<svg id=\"sadEyes\" class='eyes' xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 427 219\" width=\"427\" height=\"219\"\n" +
     "\t style=\"\n" +
     "\t\t --eyeball-reflection-color: white;\n" +
-    "\t\t --skin-color: #598c3d;\n" +
+    "\t\t --skin-color: #5b8e43;\n" +
     "\t\t --eye-back-color: #f7f7f7;\n" +
     "\t\t --eyeball-color: #000000;\n" +
     "\t\t --stroke-width: 3\n" +
